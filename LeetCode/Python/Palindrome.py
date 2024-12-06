@@ -20,3 +20,8 @@ class Solution:
         
 obj = Solution()
 print(obj.isPalindrome(0))
+
+# Best Solution
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        return str(x) == str(x)[::-1]
